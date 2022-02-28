@@ -1,0 +1,19 @@
+Purpose:
+- show the ability to find/research and api in a short amount of time
+- display the info in an HTMLlayout that shows the ability to create a simple responsive page
+
+Goal:
+- Show ability to find and vet an api
+- Show standard html / css / javasctipt knowlage 
+- Show ability to improvise responsive design with only 1 design layout
+
+Instructions:
+- Find a free JavaScript weather api to get the data
+- Replace temperature, weather description, and icon in the layout with information from the api. ( most API's provide icons for weather descriptions )
+- Display the current date and time in the layout
+- Make sure layout does not break at common breakpoints ( 320, 1024, 1200 )
+- Use vanilla JS if possible. Avoid libraries.
+
+
+- jpeg and ai and font files are included
+- integration of data and HTML/CSS is what we are looking for, Fidelitly is up to you

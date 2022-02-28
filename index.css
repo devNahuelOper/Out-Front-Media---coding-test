@@ -1,0 +1,95 @@
+@font-face {
+  font-family: gothamBlack;
+  src: url(fonts/Gotham-Black.ttf);
+}
+@font-face {
+  font-family: gothamBold;
+  src: url(fonts/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: gothamBook;
+  src: url(fonts/Gotham-Book.otf);
+}
+@font-face {
+  font-family: gothamMedium;
+  src: url(fonts/GothamMedium.ttf);
+}
+@font-face {
+  font-family: gothamMediumItalic;
+  src: url(fonts/Gotham-MediumItalic.ttf);
+}
+@font-face {
+  font-family: gothamThinItalic;
+  src: url(fonts/Gotham-ThinItalic.ttf);
+}
+
+h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #282828;
+}
+
+header {
+  padding: 150px 0 42px 80px;
+  background: radial-gradient(circle at 15% 37%, rgb(73 73 73 / 79%), rgb(41 41 41 / 66%));
+}
+
+#city {
+  font-family: gothamBold;
+  color: #58a9ff;
+  font-size: 2.5em;
+  margin-bottom: 0.25em;
+}
+
+#date {
+  font-family: gothamBook;
+  color: white;
+  font-size: 2em;
+}
+
+#time {
+  font-family: gothamBlack;
+  color: white;
+  font-size: 3em;
+}
+
+#temp {
+  font-family: gothamBlack;
+  color: white;
+  font-size: 2.5em;
+}
+
+#temp::after {
+  content: "°";
+  position: relative;
+  bottom: 10px;
+  left: 4px;
+  font-family: gothamMedium;
+}
+
+main {
+  background: linear-gradient(184deg, rgba(123,93,241,0.9), rgb(45 158 238 / 87%));
+  padding: 42px 80px 120px 80px;
+}
+
+.icon-container {
+  display: flex;
+}
+
+/* .icon {
+  width: 300px;
+} */
+
+.descriptions {
+  margin: 1.5em 0;
+}
+
+.description {
+  font-family: GothamBold;
+  color: #9fcbfa;
+  font-size: 2em;
+}
